@@ -2,14 +2,11 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `    
-      <products></products>
-    `
+  template: `<rating></rating>
+  `
 })
 export class AppComponent {
-    title = "hello";
-
-    onClick($event){
-      console.log("Clicked",$event)
-    }
+  onClickMe($event){
+    console.log("Clicked",$event)
+  }
 }
